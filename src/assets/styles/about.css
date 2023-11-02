@@ -1,0 +1,12 @@
+.masthead{
+    background-color: gray;
+    padding-top: 45px;
+    padding-bottom: 100px;
+    /* background-size: cover; */
+}
+
+.about-description{
+    position: relative;
+    display: flex;
+}
+

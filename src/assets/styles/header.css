@@ -1,0 +1,83 @@
+#header {
+    background-image: url('../images/header2.png');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    text-align: center;
+    height: 20%;
+    color: white;
+    padding: 20px;
+    position: relative;
+    /* background-clip: border-box; */
+    /* border-bottom: 200px solid; */
+
+}
+
+
+.sign-up,
+.sell {
+    padding-inline: 50px !important;
+    padding-block-start: 10px !important;
+    padding-block-end: 10px !important;
+    background-color: white;
+    border-radius: 1%;
+    outline: none !important;
+}
+
+.sign-up:hover,
+.sell:hover {
+    color: black !important;
+    background-color: #333;
+}
+
+.sign-up:active,
+.sell:active {
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.font-mono {
+    font-family: monospace;
+    font-size: medium;
+}
+
+.bg-whitesmoke {
+    background-color: whitesmoke;
+}
+
+.with-background {
+    background-image: url('../images/ready.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+
+
+
+.custom-button {
+    background-color: white;
+    color: #333;
+    /* Text color for the button */
+    width: 200px;
+    border-radius: 0%;
+    border-color: #fff;
+    position: relative;
+    /* overflow: hidden; */
+    /* Adjust the width as needed */
+    /* Add any additional styles as needed */
+}
+
+.custom-button:hover {
+    background-color: black;
+    color: white;
+}

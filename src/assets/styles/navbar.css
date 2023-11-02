@@ -1,0 +1,50 @@
+.nav-link.nav-home,
+.nav-link.nav-contact,
+.nav-dropdown.nav-about {
+    color: #333;
+    margin: 0 15px;
+    /* Add horizontal margin for spacing */
+}
+
+.navbar-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.upper-para {
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* font-weight: 120; */
+}
+
+.link-para {
+    color: black;
+}
+
+.sticky-navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.nav-dropdown-link a {
+    color: black; /* Set the text color to black */
+    text-decoration: none; /* Remove the underline */
+}
+
+.nav-contact a {
+    color: black; /* Set the text color to black */
+    text-decoration: none; /* Remove the underline */
+}
+
+.nav-link a {
+    color: black; /* Set the text color to black */
+    text-decoration: none; /* Remove the underline */
+}
